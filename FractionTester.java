@@ -1,6 +1,12 @@
 public class FractionTester {
     public static void main(String[] args) {
 
+        /*
+         * Was ich aus den Lösungen lernte:
+         * - Es macht sinn Funktionalität überall wo es sinn macht in einzelne Methoden zu separieren,
+         * - anstatt für jeden Fall eine Methode mit wiederholtem Code zu schreiben.
+         */
+
         Fraction f = new Fraction(24, 4);
 
         // Der folgende Code funktioniert nur, wenn die Felder von Fraction nicht privat sind:
